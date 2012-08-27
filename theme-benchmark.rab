@@ -1,0 +1,29 @@
+= TITLE
+
+# : subtitle
+#    SUBTITLE
+: author
+   Rabbit
+# : institution
+#    INSTITUTION
+# : content-source
+#    EVENT NAME
+# : date
+#    2012/08/27
+# : allotted-time
+#    5m
+# : theme
+#    default
+
+
+= TITLE
+
+  * ITEM 1
+  * ITEM 2
+  * ITEM 3
+
+= TITLE
+
+  # image
+  # src = https://raw.github.com/shockers/rabbit/master/sample/lavie.png
+  # relative_height = 100
