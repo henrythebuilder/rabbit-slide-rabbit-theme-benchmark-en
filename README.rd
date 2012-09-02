@@ -35,3 +35,8 @@ licenses:
 Use the following as the author:
 
   * Kouhei Sutou
+
+Provided patches, codes and so on are also licensed under the same
+license. Kouhei Sutou can change the license of them. He considers
+that authores of them agree with the rule when they contribute their
+patches, codes and so on.
