@@ -98,11 +98,18 @@ For benchmarking a theme
   You take the ((*red pill*)), you stay in Wonderland and 
   I show you how deep the ((*rabbit-hole*)) goes.
 
-= Quotation with item.
+= Quotation with item
 
   # blockquote
   Itemization in quotation
     * Level 1
+
+= Quotation with avatar
+
+  # blockquote
+  # avatar = lavie.png
+
+  Rabbit is a presentation tool for programmer, especially Rubyist.
 
 = Table
 
