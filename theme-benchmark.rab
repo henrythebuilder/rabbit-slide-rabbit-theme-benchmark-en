@@ -1,5 +1,6 @@
 = Theme Benchmark
-
+:subtitle
+   A benchmark theme
 : author
    Kouhei Sutou
 
@@ -9,6 +10,9 @@
 : date
    2007/06/24
 
+: place
+  RabbitLand (for place tag)
+
 : allotted-time
    10m
 
@@ -17,6 +21,29 @@
 For benchmarking a theme
 
   * includes basic elements
+
+= Large size text
+(('tag:xx-large'))xx-large
+
+(('tag:x-large'))x-large
+
+(('tag:large'))large
+
+normal
+
+= Small size text
+(('tag:xx-small'))xx-small
+
+(('tag:x-small'))x-small
+
+(('tag:small'))small
+
+normal
+
+= Text
+Slide with ((*emphasized text*)) included at two levels:
+  (1)((*Level one*))
+  (2)((*((*Level two*))*))
 
 = Itemization
 
@@ -95,7 +122,7 @@ For benchmarking a theme
 
   # blockquote
   # title = The Matrix
-  You take the ((*red pill*)), you stay in Wonderland and 
+  You take the ((*red pill*)), you stay in Wonderland and
   I show you how deep the ((*rabbit-hole*)) goes.
 
 = Quotation with item
@@ -122,6 +149,34 @@ For benchmarking a theme
   Content 1-2, Content 2-2
 
 = Only Title
+
+= Only Title & Background Image
+== Properties
+: background-image
+   lavie.png
+: background-image-relative-height
+   100
+#: background-image-relative-margin-top
+#   0
+
+= Footnote
+Sample text with footnote((-Footnote description-))\n\n
+
+= Note
+Sample text (('note:(with Note)')) bla bla bla
+
+= Title (('note:(with Note)'))
+(('note:Slide title with note'))
+
+= Emphasis text
+:Two emphasis level
+  *((*level 1 text*))
+  *((*((*level 2 text*))*))
+
+:Normal and deleted
+  *(('del:((*level 1 text deleted*))'))
+  *(('del:((*((*level 2 text deleted*))*))'))
+
 
 = The last slide
 
